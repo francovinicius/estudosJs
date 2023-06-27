@@ -1,0 +1,29 @@
+main {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-load {
+    height: 40px;
+    width: 40px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: spinner3 800ms ease infinite;
+}
+
+@keyframes spinner3 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-none {
+    display: none;
+    margin-left: -100000vw;
+}
