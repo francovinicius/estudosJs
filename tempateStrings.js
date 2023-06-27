@@ -1,41 +1,13 @@
-let lista = [123, 4, 'vini'];
+// Template strings
 
-//objeto
+let nome = 'vinicius';
+let sobrenome = 'franco';
+let idade = 29;
 
-let pessoa = {
-    nome: 'Vini',
-    idade: 29,
-    altura: 1.81,
-    cargo: 'programador'
-}
+// let mensagem = 'meu nome é ' + nome + ' ' + sobrenome + ' e tenho ' + idade + ' anos.';
 
-//console.log(pessoa.nome)
+let mensagem = `Meu nome é ${nome} e eu tenho ${sobrenome} e tenho ${idade} anos`
 
-let carro = {
-    nome: 'Gol',
-    cor: 'preto',
-    potencia: '140cv'
+console.log (mensagem);
 
-}
 
-//console.log(carro)
-
-let usuarios = [
-    {
-        nome:'vini', cargo: 'programador', status: 'ativo'
-    },
-    {
-        nome:'pablo', cargo:'backend', status:'ativo'
-    },
-    {
-        nome:'isa', cargo:'rh', status:'ativo'
-    },
-    {
-        nome:'cleo', cargo:'rh', status:'inativo'
-    }
-]
-
-/*
-console.log(usuarios)
-console.log(usuarios[1].cargo)
-*/
