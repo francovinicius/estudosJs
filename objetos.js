@@ -35,5 +35,7 @@ let usuarios = [
     }
 ]
 
+/*
 console.log(usuarios)
 console.log(usuarios[1].cargo)
+*/
