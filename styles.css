@@ -6,6 +6,10 @@ main {
     align-items: center;
 }
 
+h1 {
+    padding-bottom: 2rem;
+}
+
 .btn-load {
     height: 40px;
     width: 40px;
